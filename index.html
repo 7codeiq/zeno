@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>ZENO</title>
+</head>
+
+<body>
+    <header>
+        <div class="hero-bg">
+            <div class="navigation">
+                <div class="logo">
+                    <h1>zeno</h1>
+                    <br>
+                    <p>Sell & Buy USDT Easily</p>
+                </div>
+                <div class="navbar">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">Sell & Buy</a></li>
+                        <li><a href="services.html" target="_blank">Our Services</a></li>
+                        <li><a href="#">Know us better</a></li>
+                        <li><a href="#">Our team</a></li>
+                        <li><a href="#">Get in touch</a></li>
+                        <li><i class="fa-solid fa-magnifying-glass"></i></li>
+                        <li><button><a href="#">START TRADING</a></button></li>
+                    </ul>
+                </div>
+
+                <!--mobile nav -->
+                <div class="btn-bg" id="menu" onclick="mobileMenu()">
+                    <div id="1" class="up-line"></div>
+                    <div id="2" class="line"></div>
+                    <div id="3" class="down-line"></div>
+                </div>
+                <nav id="mobile" class="navbar-mobile">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">Sell & Buy</a></li>
+                        <li><a href="services.html" target="_blank">Our Services</a></li>
+                        <li><a href="#">Know us better</a></li>
+                        <li><a href="#">Our team</a></li>
+                        <li><a href="#">Get in touch</a></li>
+                        <li><i class="fa-solid fa-magnifying-glass"></i></li>
+                        <li><button><a href="#">START TRADING</a></button></li>
+                    </ul>
+                </nav>
+
+                <!--hero -->
+            </div>
+            <div class="hero">
+                <div class="text-hero">
+                    <h1>Sell And Buy <br>CRYPTOCURRENCIES</h1>
+                    <br>
+                    <p>With ZenoCoin you can sell and buy USDT very easy<br> using eathier cash transfare or a any other
+                        kind of wallet money that we support </p>
+                    <br>
+                    <div class="flex-hero">
+                        <div class="icons">
+                            <i class="fa-solid fa-check"></i><br>
+                            <i class="fa-solid fa-check"></i></i><br>
+                            <i class="fa-solid fa-check"></i></i><br>
+                            <i class="fa-solid fa-check"></i></i><br>
+                        </div>
+                        <div class="flex-text">
+                            <p>Trust worthy company</p>
+                            <p>More than 100K transfare</p>
+                            <p>Low exchange rate</p>
+                            <p>Highest data protection standards</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="wrapper">
+                    <form action="#">
+                        <div class="btc">
+                            <p>USDT</p>
+                            <input type="text" class="input" value="1,234.00">
+                            <p id="values"></p>
+                        </div>
+
+                        <div class="rate">Exchange Rate:
+                            <div class="exchange-rate"> </div>
+                            <button class="button"> <i class="fa-solid fa-arrows-rotate" id="icon"> </i></button>
+                        </div>
+
+                        <hr>
+                        <select name="" id="" class="select">
+                            <option value="USD">USD TRANSFER</option>
+                            <option value="USD">ZAIN CASH</option>
+                        </select>
+
+                        <div class="hkd">
+                            <p>USD TRANSFER</p>
+                            <input type="text" id="output" class="input" value="123,456.00">
+                        </div>
+
+                        <div class="btn-hero">
+                            <button class="btn"><a href="#"> START NOW</a></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="sec-one">
+        <div class="section-one">
+            <i class="fa-solid fa-wallet"></i>
+            <h1>Crypto Wallet</h1>
+            <p>Ex vix eius probatus et sit</p>
+        </div>
+        <div class="section-one">
+            <i class="fa-solid fa-credit-card"></i>
+            <h1>Secure Payments</h1>
+            <p>Reque dicant essent ex sed</p>
+        </div>
+        <div class="section-one">
+            <i class="fa-solid fa-chart-simple"></i>
+            <h1>Advanced Monitoring</h1>
+            <p>Vel id nonumes consulatu</p>
+        </div>
+    </div>
+
+
+
+    <!-- Section tow -->
+
+    <section class="tow">
+        <div class="text-tow">
+            <br><br><br>
+            <h1>How it works</h1>
+            <br>
+            <p>Buy and Sell Cryptocurrencies in 3 easy steps.</p>
+        </div>
+        <div class="flex-tow">
+            <div class="img-phone">
+                <img src="img/mobile.png" alt="">
+            </div>
+            <div class="text-sec-tow">
+                <div class="text-flex">
+                    <div class="text-tow-sec">
+                        <p class="icon">1</p>
+                        <h1>Sign up</h1>
+                        <br>
+                        <p>Sign up for a free Wallet on web, iOS or Android and go through our easy verification.</p>
+                        <br><br>
+                        <p class="icon">2</p>
+                        <h1>Deposit Money</h1>
+                        <br>
+                        <p>Select your preferred deposit method and deposit money into your Wallet</p>
+                        <br><br>
+                        <p class="icon">3</p>
+                        <h1>Buy Bitcoin or other Cryptocurrencies</h1>
+                        <br>
+                        <p>Buy Bitcoin or other Cryptocurrencies! We also make sure it’s stored safely.</p>
+                        <br>
+                        <button class="btn"><a href="#">Sign up Now</a></button>
+                        <br><br>
+                        <p>* With no obligations or hidden fees.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Section Three -->
+
+    <section>
+        <div class="text-tow">
+            <br><br><br>
+            <h1>Why choose Digital Coin</h1>
+            <br>
+            <p>Cum doctus civibus efficiantur in imperdiet deterruisset.</p>
+        </div>
+        <div class="card">
+            <div class="cart">
+                <i class="fa-solid fa-chart-column"></i>
+                <br><br>
+                <h1>Growth Plans</h1>
+                <br>
+                <p>Postea democritum mnesarchum ne nam, <br> ad vim aperiri tractatos.</p>
+            </div>
+            <div class="cart">
+                <i class="fa-solid fa-shield"></i>
+                <br><br>
+                <h1>Secure ans Safe</h1>
+                <br>
+                <p>Postea democritum mnesarchum ne nam, <br> ad vim aperiri tractatos.</p>
+            </div>
+            <div class="cart">
+                <i class="fa-solid fa-eye"></i>
+                <br><br>
+                <h1>Anonymity</h1>
+                <br>
+                <p>Postea democritum mnesarchum ne nam, <br> ad vim aperiri tractatos.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="cart">
+                <i class="fa-solid fa-tablet"></i>
+                <br><br>
+                <h1>Exchange Tools</h1>
+                <br>
+                <p>Postea democritum mnesarchum ne nam, <br> ad vim aperiri tractatos.</p>
+            </div>
+            <div class="cart">
+                <i class="fa-solid fa-gem"></i>
+                <br><br>
+                <h1>Awarded Reseller</h1>
+                <br>
+                <p>Postea democritum mnesarchum ne nam, <br> ad vim aperiri tractatos.</p>
+            </div>
+            <div class="cart">
+                <i class="fa-solid fa-sack-dollar"></i>
+                <br><br>
+                <h1>Great Earnings</h1>
+                <br>
+                <p>Postea democritum mnesarchum ne nam, <br> ad vim aperiri tractatos.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- section four-->
+
+    <section class="sec-four">
+        <div class="text-tow">
+            <br><br><br>
+            <h1>Start Earning Today</h1>
+            <br>
+            <p>Cum doctus civibus efficiantur in imperdiet deterruisset.</p>
+        </div>
+        <div class="flex-four">
+            <div>
+                <img src="img/1.png" alt="">
+            </div>
+            <div class="text-four">
+                <h4>APRIL 2017</h4>
+                <h1>$1,435.2</h1>
+            </div>
+
+        </div>
+        <div class="flex-four">
+            <div class="text-four-left">
+                <h4>JULY 2017</h4>
+                <h1>$2,856</h1>
+            </div>
+            <div>
+                <img src="img/2.png" alt="">
+            </div>
+
+        </div>
+        <div class="flex-four">
+            <div>
+                <img src="img/3.png" alt="">
+            </div>
+            <div class="text-four">
+                <h4>AUGUST 2017</h4>
+                <h1>$4,718.2</h1>
+            </div>
+
+        </div>
+        <div class="flex-four">
+            <div class="text-four-left">
+                <h4>OCTOBER 2017</h4>
+                <h1>$6,458.3</h1>
+            </div>
+            <div>
+                <img src="img/4.png" alt="">
+            </div>
+        </div>
+
+        <div class="btn-tow">
+            <div>
+                <button class="btn"><a href="#">Start Earning</a></button>
+            </div>
+            <div>
+                <button class="btn-tow-edit"><a href="">View Services</a></button>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- Section Five -->
+
+    <section>
+        <div class="sec-five">
+
+        </div>
+    </section>
+
+    <!-- Section Six -->
+
+    <section class="news">
+
+        <div class="text-tow">
+            <br><br><br>
+            <h1>Latest News</h1>
+            <br>
+            <p>Cum doctus civibus efficiantur in imperdiet deterruisset.</p>
+        </div>
+
+        <div class="news">
+            <div class="news-one">
+                <div>
+                    <img src="img/news_home_1.jpg" alt="">
+                </div>
+                <div>
+                    <p class="text-six">MARK TWAIN - 20.11.2017</p>
+                    <br>
+                    <h4>Pri oportere scribentur eu</h4>
+                    <br>
+                    <p>Cu eum alia elit, usu in eius appareat, deleniti <br> sapientem honestatis eos ex. In ius esse
+                        <br> ullum vidisse....
+                    </p>
+                </div>
+                <div>
+                    <img src="img/news_home_2.jpg" alt="">
+                </div>
+                <div>
+                    <p class="text-six">JHON DOE - 20.11.2017</p>
+                    <br>
+                    <h4>Duo eius postea suscipit</h4>
+                    <br>
+                    <p>Cu eum alia elit, usu in eius appareat, deleniti <br> sapientem honestatis eos ex. In ius esse
+                        <br> ullum vidisse....
+                    </p>
+                </div>
+            </div>
+            <div class="news-one">
+                <div>
+                    <img src="img/news_home_3.jpg" alt="">
+                </div>
+                <div>
+                    <p class="text-six">LUCA ROBINSON - 20.11.2017</p>
+                    <br>
+                    <h4>Elitr mandamus cu has</h4>
+                    <br>
+                    <p>Cu eum alia elit, usu in eius appareat, deleniti <br> sapientem honestatis eos ex. In ius esse
+                        <br> ullum vidisse....
+                    </p>
+                </div>
+                <div>
+                    <img src="img/news_home_4.jpg" alt="">
+                </div>
+                <div>
+                    <p class="text-six">PAULA RODRIGEZ - 20.11.2017</p>
+                    <br>
+                    <h4>Id est adhuc ignota</h4>
+                    <br>
+                    <p>Cu eum alia elit, usu in eius appareat, deleniti <br> sapientem honestatis eos ex. In ius esse
+                        <br> ullum vidisse....
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="btn-news">
+
+            <button class="btn"><a href="#">View all news</a></button>
+
+        </div>
+
+    </section>
+
+
+
+    <!--section seven -->
+
+    <section>
+        <div class="brand">
+            <img src="img/brand/currency_icon_1.svg" alt="">
+            <img src="img/brand/currency_icon_2.svg" alt="">
+            <img src="img/brand/currency_icon_3.svg" alt="">
+            <img src="img/brand/currency_icon_4.svg" alt="">
+            <img src="img/brand/currency_icon_5.svg" alt="">
+            <img src="img/brand/currency_icon_6.svg" alt="">
+            <img src="img/brand/currency_icon_7.svg" alt="">
+            <img src="img/brand/currency_icon_8.svg" alt="">
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="footer">
+            <div>
+                <h1>ZENO</h1>
+                <br>
+                <p>Mea nibh meis philosophia eu. Duis legimus efficiantur ea sea. Id <br><br> placerat tacimates
+                    definitionem sea, prima quidam vim no. Duo <br><br> nobis persecuti cu. Nihil facilisi indoctum an
+                    vix, ut delectus <br><br> expetendis vis.</p><br><br>
+                <h4>
+                    FOLLOW US
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-google-plus-g"></i>
+                    <i class="fa-brands fa-pinterest"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </h4>
+            </div>
+            <div>
+                <h1>Useful links</h1>
+                <br>
+                <ul>
+                    <li><a href="#">Blog</a></li><br>
+                    <li><a href="#">About</a></li><br>
+                    <li><a href="#">Login</a></li><br>
+                    <li><a href="#">Register</a></li><br>
+                    <li><a href="#">Contacts</a></li>
+                </ul>
+            </div>
+            <div class="contact-us">
+                <h1>Contact with Us</h1>
+                <br>
+                <div class="content">
+                    <i class="fa-solid fa-mobile"></i>
+                    <p>+ 61 23 8093 3400</p>
+                </div>
+                <div class="content">
+
+                    <i class="fa-solid fa-envelope"></i>
+                    <p>info@domain.com</p>
+                    <p>Newsletter</p>
+                </div>
+
+                <input type="email" placeholder="Your Email"> <button type="submit" class="btn">Submit</button>
+            </div>
+
+
+
+        </div>
+        <div class="pearlfibers">
+                <p>Developed By </p>    
+                <a href="https://design.pearlfibers.com/"><img src="https://design.pearlfibers.com/wp-content/uploads/2022/01/wlogo-e1643842459286.png" alt=""> </a>
+                </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
